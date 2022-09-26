@@ -17,9 +17,9 @@ if((randomNum_1 - 1) == (randomNum_2 - 1)) {
     elem[0].innerHTML = "Draw";
 }
 else if((randomNum_1 - 1) > (randomNum_2 - 1)) {
-    elem[0].innerHTML = "Players 1 wins";
+    elem[0].innerHTML = document.querySelectorAll('p')[0].getInnerHTML() + " wins!";
 }
 else {
-    elem[0].innerHTML = "Players 2 wins";
+    elem[0].innerHTML = document.querySelectorAll('p')[1].getInnerHTML() + " wins!";
 }
 
